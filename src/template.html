@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="hr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#000000">
+<meta name="color-scheme" content="dark">
+<title>Cjenik pića – Rock Caffe bar Enigma</title>
+<meta name="description" content="Cjenik pića / Drinks menu – Rock Caffe bar Enigma, Zagreb – Dubrava">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#000; --yellow:#fff200; --white:#fff;
+    --dim:rgba(255,242,0,.45); --line:rgba(255,242,0,.35); --muted:rgba(255,255,255,.55);
+    --anchor:#c4be86;            /* prigušena žuta za sidrenu cijenu, kao "sidrena cijena" u printu */
+    --col-anchor:42px; --col-price:76px;  /* širine stupaca cijena (iste za retke i oznake) */
+    --pad:16px; --nav-h:52px;
+    --font:"Barlow Condensed","Arial Narrow",Arial,sans-serif;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0;background:var(--bg);color:var(--yellow);font-family:var(--font);font-weight:600;
+       font-size:17px;line-height:1.25;overflow-x:hidden;
+       padding-left:env(safe-area-inset-left);padding-right:env(safe-area-inset-right)}
+  button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer;-webkit-tap-highlight-color:transparent}
+
+  /* zaglavlje */
+  header{padding:calc(env(safe-area-inset-top) + 14px) var(--pad) 18px;position:relative}
+  .lang{position:absolute;top:calc(env(safe-area-inset-top) + 8px);right:var(--pad);display:flex;gap:2px;
+        font-size:15px;letter-spacing:.08em;font-weight:600}
+  .lang button{min-width:44px;min-height:36px;color:var(--muted)}
+  .lang button[aria-pressed="true"]{color:var(--white)}
+  .lang span{color:var(--muted);align-self:center}
+  .logo{display:block;color:var(--yellow);margin:40px auto 0;width:100%;text-align:center}
+  .logo svg{display:block;width:100%;height:auto}
+  .logo-top{display:block;width:62%;margin:0 auto 10px}
+  .logo-main{display:block;width:92%;margin:0 auto}
+  .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+  .sub{display:flex;align-items:center;gap:12px;margin-top:12px;color:var(--yellow);
+       font-weight:800;font-size:15px;letter-spacing:.42em;text-transform:uppercase;white-space:nowrap}
+  .sub::before,.sub::after{content:"";flex:1;border-top:2px dashed var(--yellow);opacity:.9}
+  .sub b{font-weight:800;margin-right:-.42em}
+
+  /* traka kategorija */
+  nav{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid rgba(255,255,255,.12)}
+  nav ul{display:flex;gap:22px;margin:0;padding:0 var(--pad);list-style:none;overflow-x:auto;
+         scroll-snap-type:x proximity;scroll-padding-inline:var(--pad);scrollbar-width:none;-webkit-overflow-scrolling:touch}
+  nav ul::-webkit-scrollbar{display:none}
+  nav li{scroll-snap-align:start;flex:none}
+  nav a{display:flex;align-items:center;height:48px;color:var(--muted);text-decoration:none;
+        font-weight:600;font-size:16px;letter-spacing:.06em;text-transform:uppercase;white-space:nowrap;
+        box-shadow:inset 0 -3px 0 transparent;transition:color .15s,box-shadow .15s}
+  nav a[aria-current="true"]{color:var(--yellow);box-shadow:inset 0 -3px 0 var(--yellow)}
+
+  /* kategorije */
+  main{padding:4px var(--pad) 8px}
+  section{padding-top:26px}
+  h2{margin:0;color:var(--white);font-weight:800;font-size:21px;letter-spacing:.06em;text-transform:uppercase}
+  /* oznake stupaca ispod naziva kategorije, poravnate sa stupcima cijena */
+  .cols{display:flex;justify-content:flex-end;align-items:baseline;margin:4px 0 6px;
+        font-size:13px;letter-spacing:.06em;text-transform:uppercase;white-space:nowrap}
+  .cols .c-anchor{font-weight:400;color:var(--anchor);text-align:right}
+  .cols .c-price{font-weight:600;color:var(--white);width:var(--col-price);text-align:right}
+  ul.items{list-style:none;margin:0;padding:0}
+  .it{padding:7px 0}
+  .row{display:flex;align-items:last baseline}
+  .name{text-transform:uppercase;letter-spacing:.02em;min-width:0}
+  .lead{flex:1;min-width:14px;margin:0 4px;border-bottom:2px dotted var(--line);transform:translateY(-4px)}
+  .anchor{flex:none;width:var(--col-anchor);text-align:right;font-weight:400;font-size:16px;color:var(--anchor);
+          font-variant-numeric:tabular-nums;white-space:nowrap}
+  .price{flex:none;width:var(--col-price);display:flex;align-items:baseline;justify-content:flex-end;
+         font-variant-numeric:tabular-nums;white-space:nowrap;letter-spacing:.02em}
+  .price::before{content:"";flex:1;min-width:10px;margin:0 4px;border-bottom:2px dotted var(--line);transform:translateY(-4px)}
+  .row.no-anchor .price::before{display:none}
+  .note{font-weight:400;font-size:15px;color:var(--muted);margin-top:2px}
+
+  footer{margin:30px var(--pad) calc(env(safe-area-inset-bottom) + 28px);padding:16px;border-radius:14px;
+         background:var(--white);color:#000;font-weight:400;font-size:14px;line-height:1.4;text-align:center}
+  footer p{margin:0}
+  footer p + p{margin-top:8px}
+  footer .biz{font-weight:600}
+</style>
+</head>
+<body>
+<header>
+  <div class="lang" role="group" aria-label="Jezik / Language">
+    <button type="button" data-lang="hr" aria-pressed="true">HR</button><span aria-hidden="true">|</span><button type="button" data-lang="en" aria-pressed="false">EN</button>
+  </div>
+  <h1 class="logo" style="margin-bottom:0">{{LOGO}}</h1>
+  <div class="sub" aria-hidden="true"><b id="sub"></b></div>
+</header>
+<nav aria-label="Kategorije"><ul id="nav"></ul></nav>
+<main id="menu"></main>
+<footer id="foot"></footer>
+
+<script>
+const DATA = {{DATA}};
+const SHOW_ANCHOR = "always"; // "always" = uvijek (kao print), "diff" = samo kad je drugačija od trenutne, "never" = nikad
+const T = {
+  hr:{sub:"Cjenik pića", nav:"Kategorije", anchor:"Cijena 10.9.2026.", price:"Cijena"},
+  en:{sub:"Drinks menu", nav:"Categories", anchor:"Price 10.9.2026.", price:"Price"}
+};
+const $ = s => document.querySelector(s);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const showAnchor = it => SHOW_ANCHOR==="always" || (SHOW_ANCHOR==="diff" && it.anchor!==it.price);
+
+function pickLang(){
+  try{ const s = localStorage.getItem("enigma-lang"); if(s==="hr"||s==="en") return s; }catch(e){}
+  const langs = navigator.languages || [navigator.language || ""];
+  return langs.some(l => /^(hr|bs|sr|sh|cnr)\b/i.test(l)) ? "hr" : "en";
+}
+
+function render(lang){
+  document.documentElement.lang = lang;
+  document.title = (lang==="hr" ? "Cjenik pića" : "Drinks menu") + " – Rock Caffe bar Enigma";
+  $("#sub").textContent = T[lang].sub;
+  $("nav").setAttribute("aria-label", T[lang].nav);
+  document.querySelectorAll(".lang button").forEach(b => b.setAttribute("aria-pressed", b.dataset.lang===lang));
+
+  $("#nav").innerHTML = DATA.categories.map(c =>
+    `<li><a href="#${c.id}">${esc(c[lang])}</a></li>`).join("");
+
+  const anchorLabel = (DATA.labels[lang] && DATA.labels[lang].anchor) || T[lang].anchor;
+  const priceLabel = (DATA.labels[lang] && DATA.labels[lang].price) || T[lang].price;
+  $("#menu").innerHTML = DATA.categories.map(c => {
+    const anyAnchor = c.items.some(showAnchor);
+    return `<section id="${c.id}" aria-labelledby="${c.id}-h">
+      <h2 id="${c.id}-h">${esc(c[lang])}</h2>
+      <div class="cols" aria-hidden="true">
+        ${anyAnchor ? `<span class="c-anchor">${esc(anchorLabel)}</span>` : ""}
+        <span class="c-price">${esc(priceLabel)} (€)</span></div>
+      <ul class="items">${c.items.map(it => {
+        const note = lang==="hr" ? it.noteHr : it.noteEn, a = showAnchor(it);
+        return `<li class="it"><div class="row${a ? "" : " no-anchor"}">
+          <span class="name">${esc(lang==="hr" ? it.hr : it.en)}</span><span class="lead" aria-hidden="true"></span>
+          ${a ? `<span class="anchor"><span class="sr">${esc(anchorLabel)}: </span>${esc(it.anchor)}</span>` : ""}
+          <span class="price"><span class="sr">${esc(priceLabel)}: </span>${esc(it.price)}</span></div>
+          ${note ? `<div class="note">${esc(note)}</div>` : ""}</li>`;
+      }).join("")}</ul></section>`;
+  }).join("");
+
+  const f = DATA.footer[lang] || [];
+  $("#foot").innerHTML = f.map((line,i) => i===0
+    ? `<p class="biz">${line.split(/\s+\/\s+/).map(esc).join("<br>")}</p>`
+    : `<p>${esc(line)}</p>`).join("");
+
+  spy.last = null; spy();
+}
+
+function setActive(id){
+  document.querySelectorAll("#nav a").forEach(a => {
+    const on = a.getAttribute("href")==="#"+id;
+    a.setAttribute("aria-current", on);
+    if(on){ const ul=$("#nav"); ul.scrollTo({left: a.parentElement.offsetLeft - 16, behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth"}); }
+  });
+}
+// scroll-spy: aktivna je zadnja kategorija čiji je naslov prošao ispod trake
+function spy(){
+  if(Date.now() < (spy.lockUntil||0)) return;   // nakon klika na traku ne prepisuj odabir dok scroll traje
+  const nav=$("nav").offsetHeight, secs=[...document.querySelectorAll("main section")];
+  let cur=secs[0]; for(const s of secs){ if(s.getBoundingClientRect().top <= nav + 40) cur=s; }
+  if((innerHeight + scrollY) >= document.documentElement.scrollHeight - 2) cur=secs[secs.length-1];
+  if(cur && cur.id!==spy.last){ spy.last=cur.id; setActive(cur.id); }
+}
+let ticking=false;
+addEventListener("scroll", () => {
+  if(ticking) return; ticking=true;
+  requestAnimationFrame(() => { ticking=false; spy(); });
+}, {passive:true});
+
+document.addEventListener("click", e => {
+  const b = e.target.closest(".lang button");
+  if(b){ const l=b.dataset.lang; try{ localStorage.setItem("enigma-lang", l); }catch(err){}
+         const y=scrollY; render(l); scrollTo(0,y); return; }
+  const a = e.target.closest("#nav a");
+  if(a){ e.preventDefault(); const id=a.getAttribute("href").slice(1);
+         const sec=document.getElementById(id), navH=$("nav").offsetHeight;
+         spy.lockUntil=Date.now()+900; spy.last=id; setActive(id);
+         scrollTo({top: sec.getBoundingClientRect().top + scrollY - navH + 1,
+                   behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth"}); }
+});
+
+render(pickLang());
+</script>
+</body>
+</html>

@@ -1,0 +1,1075 @@
+{
+  "source": "Enigma_cjenik_2026-11.indd",
+  "exported": "Fri Nov 20 2026 13:03:55 GMT+0100",
+  "labels": {
+    "hr": {
+      "anchor": "Cijena 10.9.2026.",
+      "price": "cijena"
+    },
+    "en": {
+      "anchor": "Price 10.9.2026.",
+      "price": "price"
+    }
+  },
+  "footer": {
+    "hr": [
+      "UO „Enigma”, vl. Vlatka Galeša   /   II. Novoselski odvojak 6, 10040 Zagreb – Dubrava   /   OIB: 34107157167",
+      "Cijene su izražene u eurima. Usluga i svi primjenjivi porezi uključeni su u cijene. Cjenik vrijedi od: 1.11.2026."
+    ],
+    "en": [
+      "UO “Enigma”, owned by Vlatka Galeša   /   II. Novoselski odvojak 6, 10040 Zagreb – Dubrava   /   OIB: 34107157167",
+      "Prices are stated in euros. The service and all applicable taxes are included in the prices. Price list valid from: November 1, 2026."
+    ]
+  },
+  "categories": [
+    {
+      "id": "k1",
+      "hr": "TOPLI NAPITCI",
+      "en": "HOT DRINKS",
+      "items": [
+        {
+          "hr": "KAVA",
+          "en": "COFFEE",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "1.80",
+          "price": "1.80"
+        },
+        {
+          "hr": "KAVA S MLIJEKOM",
+          "en": "COFFEE WITH MILK",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.00",
+          "price": "2.00"
+        },
+        {
+          "hr": "CAPPUCCINO",
+          "en": "CAPPUCCINO",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.20",
+          "price": "2.20"
+        },
+        {
+          "hr": "CAPPUCCINO BEZ KOFEINA",
+          "en": "DECAF CAPPUCCINO",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.50",
+          "price": "2.50"
+        },
+        {
+          "hr": "KAVA SA ŠLAGOM",
+          "en": "COFFEE + WHIPPED CREAM",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.20",
+          "price": "2.20"
+        },
+        {
+          "hr": "BIJELA KAVA",
+          "en": "CAFFÈ LATTE",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.50",
+          "price": "2.50"
+        },
+        {
+          "hr": "KAVA BEZ KOFEINA",
+          "en": "DECAF COFFEE",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.20",
+          "price": "2.20"
+        },
+        {
+          "hr": "KAVA BEZ KOFEINA S MLIJEKOM",
+          "en": "DECAF WITH MILK",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.40",
+          "price": "2.40"
+        },
+        {
+          "hr": "KAVA BEZ KOFEINA SA ŠLAGOM",
+          "en": "DECAF + WHIPPED CREAM",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.40",
+          "price": "2.40"
+        },
+        {
+          "hr": "BIJELA KAVA BEZ KOFEINA",
+          "en": "DECAF LATTE",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.60",
+          "price": "2.60"
+        },
+        {
+          "hr": "NESQUIK KAKAO",
+          "en": "NESQUIK COCOA",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.50",
+          "price": "2.50"
+        },
+        {
+          "hr": "NESCAFÉ INSTANT",
+          "en": "NESCAFÉ INSTANT",
+          "noteHr": "(vanilija, čokolada, irish, lješnjak)",
+          "noteEn": "(vanilla, chocolate, Irish, hazelnut)",
+          "anchor": "2.50",
+          "price": "2.50"
+        },
+        {
+          "hr": "FRANCK INSTANT KAVA",
+          "en": "FRANCK INSTANT COFFEE",
+          "noteHr": "(vanilija, čokolada, irish)",
+          "noteEn": "(vanilla, chocolate, Irish)",
+          "anchor": "2.50",
+          "price": "2.50"
+        },
+        {
+          "hr": "ŠLAG",
+          "en": "WHIPPED CREAM",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "1.50",
+          "price": "1.50"
+        },
+        {
+          "hr": "MLIJEKO 1 L",
+          "en": "MILK 1 L",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "5.00",
+          "price": "5.00"
+        },
+        {
+          "hr": "MLIJEKO 0.1 L",
+          "en": "MILK 0.1 L",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "0.50",
+          "price": "0.50"
+        },
+        {
+          "hr": "ČAJ S LIMUNOM",
+          "en": "TEA WITH LEMON",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.00",
+          "price": "2.00"
+        },
+        {
+          "hr": "MED",
+          "en": "HONEY",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "0.30",
+          "price": "0.30"
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "hr": "BEZALKOHOLNA PIĆA",
+      "en": "SOFT DRINKS",
+      "items": [
+        {
+          "hr": "CEDEVITA",
+          "en": "CEDEVITA",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.30",
+          "price": "2.30"
+        },
+        {
+          "hr": "PRIRODNA LIMUNADA",
+          "en": "FRESH LEMONADE",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.70",
+          "price": "2.70"
+        },
+        {
+          "hr": "COCA-COLA",
+          "en": "COCA-COLA",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.70",
+          "price": "2.70"
+        },
+        {
+          "hr": "COCA-COLA ZERO",
+          "en": "COCA-COLA ZERO",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.70",
+          "price": "2.70"
+        },
+        {
+          "hr": "FANTA",
+          "en": "FANTA",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.70",
+          "price": "2.70"
+        },
+        {
+          "hr": "SPRITE",
+          "en": "SPRITE",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.70",
+          "price": "2.70"
+        },
+        {
+          "hr": "SCHWEPPES",
+          "en": "SCHWEPPES",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.70",
+          "price": "2.70"
+        },
+        {
+          "hr": "ISO TWIST",
+          "en": "ISO TWIST",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "3.10",
+          "price": "3.10"
+        },
+        {
+          "hr": "HIDRA (razni okusi)",
+          "en": "HIDRA (assorted flavours)",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "3.10",
+          "price": "3.10"
+        },
+        {
+          "hr": "JUICY (razni okusi)",
+          "en": "JUICY (assorted flavours)",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "3.00",
+          "price": "3.00"
+        },
+        {
+          "hr": "MINERALNA VODA 1 L",
+          "en": "SPARKLING WATER 1 L",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "5.00",
+          "price": "5.00"
+        },
+        {
+          "hr": "JAMNICA SENSATION",
+          "en": "JAMNICA SENSATION",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.50",
+          "price": "2.50"
+        },
+        {
+          "hr": "JAMNICA 0.33 L",
+          "en": "JAMNICA 0.33 L",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.50",
+          "price": "2.50"
+        },
+        {
+          "hr": "RÖMERQUELLE",
+          "en": "RÖMERQUELLE",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.70",
+          "price": "2.70"
+        },
+        {
+          "hr": "MINERALNA 0.1 L",
+          "en": "SPARKLING WATER 0.1 L",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "0.60",
+          "price": "0.60"
+        },
+        {
+          "hr": "MINERALNA 0.2 L",
+          "en": "SPARKLING WATER 0.2 L",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "0.70",
+          "price": "0.70"
+        },
+        {
+          "hr": "MINERALNA 0.3 L",
+          "en": "SPARKLING WATER 0.3 L",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "1.20",
+          "price": "1.20"
+        },
+        {
+          "hr": "MINERALNA 0.5 L",
+          "en": "SPARKLING WATER 0.5 L",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "3.00",
+          "price": "3.00"
+        },
+        {
+          "hr": "KAVA S MLIJEKOM + CEDEVITA",
+          "en": "COFFEE W/MILK + CEDEVITA",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "3.70",
+          "price": "3.70"
+        },
+        {
+          "hr": "KAVA + CEDEVITA",
+          "en": "COFFEE + CEDEVITA",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "3.50",
+          "price": "3.50"
+        },
+        {
+          "hr": "HELL ENERGY",
+          "en": "HELL ENERGY",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.50",
+          "price": "2.50"
+        },
+        {
+          "hr": "HELL + KAVA",
+          "en": "HELL + COFFEE",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "3.50",
+          "price": "3.50"
+        },
+        {
+          "hr": "HELL + KAVA S MLIJEKOM",
+          "en": "HELL + COFFEE W/MILK",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "3.70",
+          "price": "3.70"
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "hr": "PIVO",
+      "en": "BEER",
+      "items": [
+        {
+          "hr": "ZLATOROG",
+          "en": "ZLATOROG",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.80",
+          "price": "2.80"
+        },
+        {
+          "hr": "KARLOVAČKO",
+          "en": "KARLOVAČKO",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.80",
+          "price": "2.80"
+        },
+        {
+          "hr": "PAN",
+          "en": "PAN",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.80",
+          "price": "2.80"
+        },
+        {
+          "hr": "PAN ZLATNI",
+          "en": "PAN ZLATNI",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.80",
+          "price": "2.80"
+        },
+        {
+          "hr": "OŽUJSKO",
+          "en": "OŽUJSKO",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.80",
+          "price": "2.80"
+        },
+        {
+          "hr": "PILSNER",
+          "en": "PILSNER",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "3.20",
+          "price": "3.20"
+        },
+        {
+          "hr": "COOL",
+          "en": "COOL",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.90",
+          "price": "2.90"
+        },
+        {
+          "hr": "STAROPRAMEN",
+          "en": "STAROPRAMEN",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "3.00",
+          "price": "3.00"
+        },
+        {
+          "hr": "PAN RADLER",
+          "en": "PAN RADLER",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.90",
+          "price": "2.90"
+        },
+        {
+          "hr": "PAN BEZALKOH.",
+          "en": "PAN NON-ALCOHOLIC",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "3.00",
+          "price": "3.00"
+        },
+        {
+          "hr": "OSJEČKO RADLER",
+          "en": "OSJEČKO RADLER",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.90",
+          "price": "2.90"
+        },
+        {
+          "hr": "STIFTUNG",
+          "en": "STIFTUNG",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "3.00",
+          "price": "3.00"
+        },
+        {
+          "hr": "TOMISLAV",
+          "en": "TOMISLAV",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "3.00",
+          "price": "3.00"
+        },
+        {
+          "hr": "SARAJEVSKO",
+          "en": "SARAJEVSKO",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.50",
+          "price": "2.50"
+        },
+        {
+          "hr": "VELEBITSKO",
+          "en": "VELEBITSKO",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "3.10",
+          "price": "3.10"
+        },
+        {
+          "hr": "BUDWEISER",
+          "en": "BUDWEISER",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "3.10",
+          "price": "3.10"
+        },
+        {
+          "hr": "BUDWEISER TAMNO",
+          "en": "BUDWEISER DARK",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "3.30",
+          "price": "3.30"
+        },
+        {
+          "hr": "VUKOVARSKO",
+          "en": "VUKOVARSKO",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "3.00",
+          "price": "3.00"
+        },
+        {
+          "hr": "KOZEL SVIJETLI",
+          "en": "KOZEL PALE LAGER",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.80",
+          "price": "2.80"
+        },
+        {
+          "hr": "KOZEL TAMNI",
+          "en": "KOZEL DARK",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.90",
+          "price": "2.90"
+        },
+        {
+          "hr": "CRNA KRALJICA",
+          "en": "CRNA KRALJICA",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "3.60",
+          "price": "3.60"
+        },
+        {
+          "hr": "ZLATNI MEDVJED",
+          "en": "ZLATNI MEDVJED",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "3.50",
+          "price": "3.50"
+        },
+        {
+          "hr": "GRIČKA VJEŠTICA",
+          "en": "GRIČKA VJEŠTICA",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "3.60",
+          "price": "3.60"
+        },
+        {
+          "hr": "HLADNO PIVO",
+          "en": "HLADNO PIVO",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "3.80",
+          "price": "3.80"
+        },
+        {
+          "hr": "FANTOM",
+          "en": "FANTOM",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "4.00",
+          "price": "4.00"
+        },
+        {
+          "hr": "FAKIN",
+          "en": "FAKIN",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "4.30",
+          "price": "4.30"
+        },
+        {
+          "hr": "PAULANER PŠENIČNI",
+          "en": "PAULANER WHEAT",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "4.20",
+          "price": "4.20"
+        },
+        {
+          "hr": "PAULANER ORIG.",
+          "en": "PAULANER ORIG.",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "4.00",
+          "price": "4.00"
+        },
+        {
+          "hr": "HEINEKEN 0.4 L",
+          "en": "HEINEKEN 0.4 L",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "3.20",
+          "price": "3.20"
+        },
+        {
+          "hr": "OŽUJSKO RADLER",
+          "en": "OŽUJSKO RADLER",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.90",
+          "price": "2.90"
+        }
+      ]
+    },
+    {
+      "id": "k4",
+      "hr": "STRANA ŽESTOKA PIĆA",
+      "en": "IMPORTED SPIRITS",
+      "items": [
+        {
+          "hr": "TEQUILA",
+          "en": "TEQUILA",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.80",
+          "price": "2.80"
+        },
+        {
+          "hr": "JÄGERMEISTER",
+          "en": "JÄGERMEISTER",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.90",
+          "price": "2.90"
+        },
+        {
+          "hr": "BALLANTINE’S",
+          "en": "BALLANTINE’S",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.80",
+          "price": "2.80"
+        },
+        {
+          "hr": "JACK DANIEL’S",
+          "en": "JACK DANIEL’S",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "3.30",
+          "price": "3.30"
+        },
+        {
+          "hr": "JOHNNIE WALKER",
+          "en": "JOHNNIE WALKER",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "3.30",
+          "price": "3.30"
+        },
+        {
+          "hr": "VODKA SMIRNOFF",
+          "en": "VODKA SMIRNOFF",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "3.20",
+          "price": "3.20"
+        },
+        {
+          "hr": "SOUTHERN COMFORT",
+          "en": "SOUTHERN COMFORT",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "3.30",
+          "price": "3.30"
+        },
+        {
+          "hr": "CHIVAS REGAL",
+          "en": "CHIVAS REGAL",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "4.50",
+          "price": "4.50"
+        },
+        {
+          "hr": "MARTINI 0.1 L",
+          "en": "MARTINI 0.1 L",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "3.30",
+          "price": "3.30"
+        },
+        {
+          "hr": "MARTELL",
+          "en": "MARTELL",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "4.50",
+          "price": "4.50"
+        },
+        {
+          "hr": "JAMESON",
+          "en": "JAMESON",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "3.40",
+          "price": "3.40"
+        }
+      ]
+    },
+    {
+      "id": "k5",
+      "hr": "DOMAĆA ŽESTOKA PIĆA",
+      "en": "LOCAL SPIRITS",
+      "items": [
+        {
+          "hr": "PELINKOVAC",
+          "en": "PELINKOVAC",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.00",
+          "price": "2.00"
+        },
+        {
+          "hr": "ŠTRUKANI PELIN",
+          "en": "ŠTRUKANI PELIN",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.40",
+          "price": "2.40"
+        },
+        {
+          "hr": "LAVOV",
+          "en": "LAVOV",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.00",
+          "price": "2.00"
+        },
+        {
+          "hr": "AMARO",
+          "en": "AMARO",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.00",
+          "price": "2.00"
+        },
+        {
+          "hr": "GIN",
+          "en": "GIN",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.00",
+          "price": "2.00"
+        },
+        {
+          "hr": "RUM",
+          "en": "RUM",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.00",
+          "price": "2.00"
+        },
+        {
+          "hr": "KONJAK",
+          "en": "BRANDY",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.00",
+          "price": "2.00"
+        },
+        {
+          "hr": "VODKA",
+          "en": "VODKA",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.00",
+          "price": "2.00"
+        },
+        {
+          "hr": "TRAVARICA",
+          "en": "TRAVARICA",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.00",
+          "price": "2.00"
+        },
+        {
+          "hr": "PELIN ANTIQUE",
+          "en": "PELIN ANTIQUE",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.50",
+          "price": "2.50"
+        },
+        {
+          "hr": "STOCK",
+          "en": "STOCK",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.20",
+          "price": "2.20"
+        },
+        {
+          "hr": "MEDICA",
+          "en": "MEDICA",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.20",
+          "price": "2.20"
+        },
+        {
+          "hr": "BISKA",
+          "en": "BISKA",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.20",
+          "price": "2.20"
+        },
+        {
+          "hr": "SMOKOVAČA",
+          "en": "SMOKOVAČA",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.20",
+          "price": "2.20"
+        },
+        {
+          "hr": "ORAHOVAC",
+          "en": "ORAHOVAC",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.20",
+          "price": "2.20"
+        },
+        {
+          "hr": "BOROVNIČKA",
+          "en": "BOROVNIČKA",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.20",
+          "price": "2.20"
+        },
+        {
+          "hr": "ŠLJIVOVICA",
+          "en": "ŠLJIVOVICA",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.20",
+          "price": "2.20"
+        },
+        {
+          "hr": "TERANINO",
+          "en": "TERANINO",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.20",
+          "price": "2.20"
+        },
+        {
+          "hr": "VILJAMOVKA",
+          "en": "VILJAMOVKA",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "3.80",
+          "price": "3.80"
+        }
+      ]
+    },
+    {
+      "id": "k6",
+      "hr": "VINO",
+      "en": "WINE",
+      "items": [
+        {
+          "hr": "ŽIGROVIĆ GRAŠEVINA 1 L",
+          "en": "ŽIGROVIĆ GRAŠEVINA 1 L",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "14.00",
+          "price": "14.00"
+        },
+        {
+          "hr": "RIZLING 1 L",
+          "en": "RIZLING 1 L",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "16.00",
+          "price": "16.00"
+        },
+        {
+          "hr": "VRANAC 1 L",
+          "en": "VRANAC 1 L",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "16.00",
+          "price": "16.00"
+        },
+        {
+          "hr": "GRAŠEVINA ILOK 1 L",
+          "en": "GRAŠEVINA ILOK 1 L",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "16.00",
+          "price": "16.00"
+        },
+        {
+          "hr": "GEMIŠT ŽIGROVIĆ",
+          "en": "ŽIGROVIĆ SPRITZER",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.50",
+          "price": "2.50"
+        },
+        {
+          "hr": "GEMIŠT RIZLING",
+          "en": "RIZLING SPRITZER",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.70",
+          "price": "2.70"
+        },
+        {
+          "hr": "GEMIŠT ILOK",
+          "en": "ILOK SPRITZER",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.70",
+          "price": "2.70"
+        },
+        {
+          "hr": "VELIKI GEMIŠT ŽIGROVIĆ",
+          "en": "LARGE ŽIGROVIĆ SPRITZER",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.80",
+          "price": "2.80"
+        },
+        {
+          "hr": "VELIKI GEMIŠT RIZLING",
+          "en": "LARGE RIZLING SPRITZER",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "3.30",
+          "price": "3.30"
+        },
+        {
+          "hr": "VELIKI GEMIŠT ILOK",
+          "en": "LARGE ILOK SPRITZER",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "3.30",
+          "price": "3.30"
+        },
+        {
+          "hr": "KUHANO VINO ŽIGROVIĆ",
+          "en": "ŽIGROVIĆ MULLED WINE",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "3.00",
+          "price": "3.00"
+        },
+        {
+          "hr": "KUHANO VINO RIZLING.",
+          "en": "RIZLING MULLED WINE",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "3.00",
+          "price": "3.00"
+        },
+        {
+          "hr": "KUHANO VINO VRANAC",
+          "en": "VRANAC MULLED WINE",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "3.00",
+          "price": "3.00"
+        },
+        {
+          "hr": "KUHANO VINO ILOK",
+          "en": "ILOK MULLED WINE",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "3.00",
+          "price": "3.00"
+        },
+        {
+          "hr": "GRAŠEVINA ILOK 0.1 L",
+          "en": "GRAŠEVINA ILOK 0.1 L",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "1.70",
+          "price": "1.70"
+        },
+        {
+          "hr": "VRANAC 0.1 L",
+          "en": "VRANAC 0.1 L",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "1.70",
+          "price": "1.70"
+        },
+        {
+          "hr": "RIZLING 0.1 L",
+          "en": "RIZLING 0.1 L",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "1.70",
+          "price": "1.70"
+        },
+        {
+          "hr": "GRAŠEVINA ŽIGROVIĆ 0.1 L",
+          "en": "GRAŠEVINA ŽIGROVIĆ 0.1 L",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "1.50",
+          "price": "1.50"
+        },
+        {
+          "hr": "ŽIGROVIĆ 1 L+ MINERALNA 1 L",
+          "en": "ŽIGROVIĆ 1 L + SODA 1 L",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "17.00",
+          "price": "17.00"
+        },
+        {
+          "hr": "ILOK 1 L+ MINERALNA 1 L",
+          "en": "ILOK 1 L + SODA 1 L",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "19.00",
+          "price": "19.00"
+        },
+        {
+          "hr": "RIZLING 1 L+ MINERALNA 1 L",
+          "en": "RIZLING 1 L + SODA 1 L",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "17.00",
+          "price": "17.00"
+        },
+        {
+          "hr": "BAMBUS",
+          "en": "BAMBUS",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.90",
+          "price": "2.90"
+        }
+      ]
+    },
+    {
+      "id": "k7",
+      "hr": "CIDER / VOĆNO VINO",
+      "en": "CIDER / FRUIT WINE",
+      "items": [
+        {
+          "hr": "SOMERSBY",
+          "en": "SOMERSBY",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "3.60",
+          "price": "3.60"
+        },
+        {
+          "hr": "STARI LISAC",
+          "en": "STARI LISAC",
+          "noteHr": "",
+          "noteEn": "",
+          "anchor": "2.90",
+          "price": "2.90"
+        }
+      ]
+    }
+  ]
+}
